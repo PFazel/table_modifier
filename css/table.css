@@ -1,0 +1,57 @@
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+tbody tr:nth-child(odd) {
+   background-color: #ccc;
+}
+
+#hor-zebra tbody tr:hover
+{
+  background: #d0dafd;
+}
+
+#hor-zebra tbody td:hover {
+background-color:yellow;
+}
+
+#hor-zebra tbody td.selected-cell {
+  background-color: #ff6600;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#hor-zebra
+{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 12px;
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+#hor-zebra th
+{
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 8px;
+  color: #039;
+}
+#hor-zebra td
+{
+  padding: 8px;
+  color: #669;
+}
+#hor-zebra .odd
+{
+  background: #e8edff;
+}

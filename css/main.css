@@ -1,0 +1,108 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body{
+  font-family: helvetica, arial;
+}
+
+iframe#output {
+  width: 100%;
+  display: block;
+  height: 200px;
+  border: solid 1px blue;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p.note {
+  color: #666;
+  font-size: 10px;
+}
+
+span#coords {
+  display: none;
+  font-family: Monaco ,helvetica, arial;
+  font-size: 12px;
+  position:fixed;
+  top:0;
+  left:0;
+  width: 0;
+  height: 0;
+}
+
+div#log {
+  height: 200px;
+  border: 1px solid blue;
+  overflow: scroll;
+  font-family: Monaco, arial ,helvetica;
+  font-size: 12px;
+  padding: 0 10px 10px 10px;
+}
+
+#form, #main {
+  width: 80%;
+  margin: 40px auto;
+}
+
+#form label {
+  width: 50px;
+  display: inline-block;
+}
+
+#form input[type=button] {
+  margin: 10px 0 0 55px;
+  -moz-box-shadow:inset 0px 1px 0px 0px #9acc85;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #9acc85;
+  box-shadow:inset 0px 1px 0px 0px #9acc85;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #74ad5a), color-stop(1, #68a54b));
+  background:-moz-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+  background:-webkit-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+  background:-o-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+  background:-ms-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+  background:linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#74ad5a', endColorstr='#68a54b',GradientType=0);
+  background-color:#74ad5a;
+  border:1px solid #3b6e22;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:arial;
+  font-size:13px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+}
+#form input[type=button]:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #68a54b), color-stop(1, #74ad5a));
+  background:-moz-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+  background:-webkit-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+  background:-o-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+  background:-ms-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+  background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#68a54b', endColorstr='#74ad5a',GradientType=0);
+  background-color:#68a54b;
+}
+#form input[type=button]:active {
+  position:relative;
+  top:1px;
+}
+input[type=number] {
+  padding:5px;
+  border:2px solid #ccc;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+input[type=number]:focus {
+  border-color:#333;
+}
+
+

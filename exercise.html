@@ -1,0 +1,31 @@
+<html>
+<head>
+  <title>Programming exercise</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body onload="Helper.init()">
+
+  <section id="form" >
+    <h4>Please specify number of rows and columns for the table</h4>
+    <p class="note">This sample is compatible with these browsers: Fire Fox 9+, IE 10+, Safari 4+, Chrome 14+, Opera 12.10(12)+</p>
+    <br/>
+    <form name="tablegen">
+      <label for="rows">Rows: </label>
+      <input type="number" min="0" name="rows" id="rows" value="4" /><br />
+      <label for="cols">Cols: </label>
+      <input type="number" min="0" name="cols" id="cols" value="3"/><br/>
+      <input name="generate" type="button" value="Create Table!" onclick='Helper.generateTable();'/>
+    </form>
+  </section>
+
+  <section id="main" style="display: none;">
+    <iframe id="output"></iframe><br/><br/>
+    <span id="coords">Move me to follow the mouse when within the iframe.</span>
+    <h4>Log</h4><br/>
+    <div id="log"></div>
+  </sectio>
+
+  <script type="text/javascript" src="js/helper.js" ></script>
+
+</body>
+</html>
