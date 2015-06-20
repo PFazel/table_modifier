@@ -1,4 +1,4 @@
-table_modifier
+Html Table Edit
 ==============
 
 Simple JS helper functions to draw and modify html table.
