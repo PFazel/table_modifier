@@ -9,7 +9,8 @@ Shuffling the table cells on the titanic
 The main aim of this exercise is to provide you with an opportunity to demonstrate how you would architect a solution to a typical iframe­based problem. It will be assessing:
 * code quality and code style
 * ability to research unforeseen problems
-* attention to detail and justification of approach d) basic styling
+* attention to detail and justification of approach 
+* basic styling
 
 #Resources:
 
