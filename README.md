@@ -3,6 +3,9 @@ Shuffling the table cells on the titanic
 
 <a href="https://rawgit.com/parham-fazel/table_modifier/master/exercise.html" target="_blank">Example page</a>
 
+#Requirements:
+
+Your solution must work on IE 10+, Safari 6+, latest Firefox and latest Chrome.
 
 #Purpose:
 
