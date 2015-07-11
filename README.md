@@ -1,7 +1,7 @@
-Shuffling the table cells on the titanic.
+Shuffling the table cells on the titanic
 ==============
 
-<a href="https://rawgit.com/parham-fazel/table_modifier/master/exercise.html" target="_blank">Example page</a>
+#<a href="https://rawgit.com/parham-fazel/table_modifier/master/exercise.html" target="_blank">Example page</a>
 
 
 #Purpose:
