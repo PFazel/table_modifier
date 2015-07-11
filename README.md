@@ -8,11 +8,7 @@ This is a coding exercise. It maybe useful for someone.
 <a href="https://rawgit.com/parham-fazel/table_modifier/master/exercise.html" target="_blank">Example page</a>
 
 
-#Programming Exercise: “Shuffling the table cells on the titanic.”
-Requirements:
-* You can use as many JavaScript files as you wish.
-* Your solution must work on IE 10+, Safari 6+, latest Firefox and latest Chrome.
-* You may use the jQuery library itself, but no plugins or jquery­ui or anything like that. 4. You cannot use any external stylesheets.
+#Shuffling the table cells on the titanic.
 
 #Purpose:
 
